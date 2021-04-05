@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="stylesheet" href="fonts/circe.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <section class="header-top">
+        <div class="header-top__sides">
+          <div class="header-top__left-side">
+            <div class="header-top__geo">
+              <img
+                class="header-top__geo-img"
+                src="images/location.svg"
+                alt="Локация"
+              />
+              <a class="header-top__geo-link" href="#">Москва и область</a>
+            </div>
+            <nav>
+              <ul class="header-top__menu">
+                <li class="header-top__menu-item">
+                  <a
+                    class="header-top__menu-link header-top__menu-link_arrow_margin"
+                    href="#"
+                    >О компании</a
+                  >
+                  <img src="images/blue-down-arr.png" alt="Выпадающий список" />
+                </li>
+                <li class="header-top__menu-item">
+                  <a class="header-top__menu-link" href="#">Клиентам</a>
+                </li>
+                <li class="header-top__menu-item">
+                  <a class="header-top__menu-link" href="#">Где купить</a>
+                </li>
+                <li class="header-top__menu-item">
+                  <a class="header-top__menu-link" href="#">Новости</a>
+                </li>
+                <li class="header-top__menu-item">
+                  <a class="header-top__menu-link" href="#">Статьи</a>
+                </li>
+                <li class="header-top__menu-item">
+                  <a class="header-top__menu-link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header-top__right-side">
+            <div class="header__top-favorites">
+              <div class="header__top-favorite">
+                <a class="header__top-favorite-link" href="#">
+                  <svg
+                    class="header__top-favorite-img"
+                    version="1.1"
+                    id="Слой_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 180.4 169.4"
+                    style="enable-background: new 0 0 180.4 169.4"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <path
+                        d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                 L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                 c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                  M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                 L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                 C88.7,130.2,89.4,130,90.2,130z"
+                      />
+                    </g>
+                  </svg>
+                </a>
+                <span class="header__top-favorite-number">15</span>
+              </div>
+              <div class="header__top-favorite">
+                <a class="header__top-favorite-link" href="#">
+                  <svg
+                    class="header__top-favorite-img"
+                    version="1.1"
+                    id="Слой_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 26 22.1"
+                    style="enable-background: new 0 0 26 22.1"
+                    xml:space="preserve"
+                  >
+                    <path class="st0" d="M5,4.1h10v2H5V4.1z" />
+                    <path class="st0" d="M5,12.1h21v2H5V12.1z" />
+                    <path class="st0" d="M5,20.2h21v1.9H5V20.2z" />
+                    <path class="st0" d="M0,4.1h3v2H0V4.1z" />
+                    <path class="st0" d="M0,12.1h3v2H0V12.1z" />
+                    <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                  </svg>
+                </a>
+                <span class="header__top-favorite-number">15</span>
+              </div>
+            </div>
+            <div class="header__top-login">
+              <img
+                class="header__top-icon-man"
+                src="images/entrance.svg"
+                alt=""
+              />
+              <a class="header__top-login-link" href="#">Вход</a>
+              <span>/</span>
+              <a class="header__top-login-link" href="#">Регистрация</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header-center">
+        <div class="header-center__block-logo">
+          <a href="#"
+            ><img
+              class="header-center__logo"
+              src="images/logo.svg"
+              alt="Логотип"
+          /></a>
+          <span class="header-center__vertical-line"></span>
+          <p class="header-center__description-logo">
+            мегамаркет ведущего российского поставщика автопринадлежностей
+          </p>
+        </div>
+        <div class="header-center__block-search">
+          <form class="header-form" action="">
+            <div class="header-form__search-place">
+              <input
+                class="header-center__input-search"
+                type="text"
+                placeholder="Поиск"
+              />
+              <button class="header-center__search-btn">
+                <svg
+                  class="header-center__search-icon"
+                  version="1.1"
+                  id="Слой_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 329.8 329.3"
+                  style="enable-background: new 0 0 329.8 329.3"
+                  xml:space="preserve"
+                >
+                  <path
+                    d="M120.4,33c48.2,0,87.4,39.2,87.4,87.4s-39.2,87.4-87.4,87.4S33,168.5,33,120.4S72.2,33,120.4,33 M120.4,0
+             C53.9,0,0,53.9,0,120.4s53.9,120.4,120.4,120.4s120.4-53.9,120.4-120.4S186.8,0,120.4,0L120.4,0z"
+                  />
+                  <path
+                    d="M322,313.4l-8.6,8.6c-9.5,9.5-24.8,9.5-34.3,0l-98.2-98.2c-9.5-9.5-9.5-24.8,0-34.3l8.6-8.6c9.5-9.5,24.8-9.5,34.3,0
+             l98.2,98.2C331.5,288.5,331.5,303.9,322,313.4z"
+                  />
+                  <path
+                    d="M155.9,134.2c4.3-1,8.7-1.5,13-1.6c-1.3-33.9-29.1-60.9-63.3-60.9c-0.4,0-0.9,0-1.3,0c0,0.4,0.1,0.8,0.1,1.2
+             c0.2,3.8-0.2,7.8-1.1,11.8c0.8,0,1.5-0.1,2.3-0.1C133.1,84.8,155.5,106.9,155.9,134.2z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="header-form__checkbox-items">
+              <label class="header-form__cursor-pointer" for="newSearch">
+                <input
+                  class="header-form__check"
+                  type="checkbox"
+                  id="newSearch"
+                />
+                <span class="header-form__custom"></span>
+                <span></span>
+                <span class="header-form__span">Искать в новинках</span>
+              </label>
+              <label class="header-form__cursor-pointer" for="saleSearch">
+                <input
+                  class="header-form__check"
+                  type="checkbox"
+                  id="saleSearch"
+                />
+                <span class="header-form__custom"></span>
+                <span></span>
+                <span class="header-form__span">Искать в распродажах</span>
+              </label>
+            </div>
+          </form>
+        </div>
+        <div class="header-center__block-contact">
+          <a class="header-center__phone" href="tel:+74950000000"
+            >+7 (495) 123-45-67</a
+          >
+          <div class="header-center__icon-phone">
+            <img class="header-center__icon" src="images/phone.svg" alt="" />
+            <a class="header-center__btn-call" href="#">Заказать звонок</a>
+          </div>
+        </div>
+        <div class="header-center__block-card">
+          <a class="header-center__link-csv" href="#"
+            ><img
+              class="header-center__img-csv"
+              src="images/csv.svg"
+              alt="Файл"
+            />Загрузить файл .csv</a
+          >
+          <div class="header-center__price-card">
+            <a class="header-center__price-link" href="#"
+              ><img
+                class="header-center__img-basket"
+                src="images/basket.svg"
+                alt="Корзина"
+              />999<span class="header-center__price-span">товаров</span></a
+            >
+            <a class="header-center__price-link" href="#"
+              >1 075 958, 05 &#8399;</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="header-bottom">
+        <nav class="menu-catalog">
+          <ul class="menu-catalog__items">
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">АВТОАКСЕССУАРЫ</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">СВЕТОТЕХНИКА</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">ИНСТРУМЕНТ</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">АВТОХИМИЯ</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">НОВИНКИ</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">РАСПРОДАЖИ</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">БРЕНДЫ</a>
+            </li>
+            <li class="menu-catalog__item">
+              <a class="menu-catalog__link" href="#">ОПТОВИКАМ</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <main class="content">
+      <section class="banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="swiper-wrapper__img"
+                src="images/evrika_banner.jpg"
+                alt="Инструменты Эврика"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="swiper-wrapper__img"
+                src="images/evrika_banner-2.jpg"
+                alt="Инструменты Эврика"
+              />
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div
+            class="swiper-pagination swiper-pagination_position_relative"
+          ></div>
+          <!-- Add Arrows -->
+          <!--<div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>-->
+        </div>
+      </section>
+      <section class="promo">
+        <div class="promo__block-title">
+          <h1 class="promo__title">
+            Ведущий поставщик автопринадлежностей<span
+              class="promo__title-numbers"
+              >15000+</span
+            >
+          </h1>
+        </div>
+        <div class="general-block">
+          <div class="sidebar">
+            <img
+              class="sidebar__treangle"
+              src="images/triangle.png"
+              alt="Треугольник"
+            />
+            <nav class="sidebar-nav">
+              <h2 class="sidebar-nav__title">
+                АВТОАКСЕССУАРЫ<span>(300)</span>
+              </h2>
+              <ul class="categories-item">
+                <li>
+                  <a class="categories-item__link" href="#">В помощь водителю</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#">Автокомпоненты</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Декоративные элементы и предметы интерьера</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Автоаксессуары и прочая продукция ED HARDY (США)</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Аксессуары для интерьера автомобиля</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Автоаксессуары и прочая продукция THE SIMPSONS (США)</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+              </ul>
+            </nav>
+            <nav class="sidebar-nav">
+              <h2 class="sidebar-nav__title">
+                СВЕТОТЕХНИКА<span class="categories-item__numbers">(300)</span>
+              </h2>
+              <ul class="categories-item">
+                <li>
+                  <a class="categories-item__link" href="#">Автолампы</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#">Светодиоды</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#">Фары</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+              </ul>
+            </nav>
+            <nav class="sidebar-nav">
+              <h2 class="sidebar-nav__title">
+                ИНСТРУМЕНТ И ГИДРАВЛИЧЕСКОЕ ОБОРУДОВАНИЕ<span
+                  class="categories-item__numbers"
+                  >(300)</span
+                >
+              </h2>
+              <ul class="categories-item">
+                <li>
+                  <a class="categories-item__link" href="#">Инструмент</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Домкраты и гидравлическое оборудование</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Смазочное оборудование</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Расходные материалы</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+              </ul>
+            </nav>
+            <nav class="sidebar-nav">
+              <h2 class="sidebar-nav__title">
+                АВТОХИМИЯ И АВТОКОСМЕТИКА<span class="categories-item__numbers"
+                  >(300)</span
+                >
+              </h2>
+              <ul class="categories-item">
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Автохимия PERMATEX</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#">Автохимия GUNK</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Автохимия и автокосметика "G-POWER" (Россия)</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Автохимия и автокосметика "АСТРОХИМ" (Россия)</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+                <li>
+                  <a class="categories-item__link" href="#"
+                    >Другие производители автохимии и автокосметики</a
+                  ><span class="categories-item__numbers">(50)</span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="general-block__products">
+            <div class="tabs-promo">
+              <ul class="tabs-promo__items">
+                <li class="tabs-promo__item tabs-promo__item_dark_blue">Новинки</li>
+                <li class="tabs-promo__item">Распродажи</li>
+                <li class="tabs-promo__item">Хиты</li>
+              </ul>
+            </div>
+            <div class="cards">
+              <ul class="cards__items">
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price">
+                    <span class="cards__strikethrough-price"></span>
+                    <span class="cards__old-price">2358 &#8399;</span>
+                    <span class="cards__new-price">1899 &#8399;</span>
+                  </div>
+                  <div class="cards__buttons">
+                    <div class="cadrs__fav-com">
+                      <div class="cards__add-favorites">
+                        <svg
+                          class="cards__favorite-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 180.4 169.4"
+                          style="enable-background: new 0 0 180.4 169.4"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path
+                              d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                     L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                     c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                      M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                     L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                     C88.7,130.2,89.4,130,90.2,130z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="cards__add-compare">
+                        <svg
+                          class="cards__compare-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 22 22.1"
+                          style="enable-background: new 0 0 22 22.1"
+                          xml:space="preserve"
+                        >
+                          <path class="st0" d="M5,8.1h7v2H5V8.1z" />
+                          <path class="st0" d="M5,14.1h17v2H5V14.1z" />
+                          <path class="st0" d="M5,20.2h17v1.9H5V20.2z" />
+                          <path class="st0" d="M0,8.1h3v2H0V8.1z" />
+                          <path class="st0" d="M0,14.1h3v2H0V14.1z" />
+                          <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M12,4.1h10v2H12V4.1z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cards__add-to-card">
+                      <img
+                        class="cards__basket-img"
+                        src="images/basket-card.svg"
+                        alt=""
+                      />
+                      <button class="cards__basket-btn">В КОРЗИНУ</button>
+                      <!-- степпер карточки товара -->
+                      <div class="cards__quantity-card">
+                        <div class="cards__stepper">
+                          <div class="cards__stepper-controls">
+                            <button type="button" spinner-button="up"></button>
+                            <button
+                              type="button"
+                              spinner-button="down"
+                            ></button>
+                          </div>
+                          <input
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            value="0"
+                            class="cards__stepper-input"
+                          />
+                          <div class="cards__word-stepper">ШТ.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price cards__price_out-of_stock">
+                    <span class="cards__out-of-stock">Нет в наличии</span>
+                  </div>
+                  <div class="cards__buttons cards__buttons_notify_blue">
+                    <button class="cards__add-to-card cards__add-to-card_notify">
+                      <img class="cards__notify-img" src="images/notify.svg" alt="уведомить">
+                      <span class="cards__notify-text">уведомить</span>
+                    </button>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price">
+                    <span class="cards__strikethrough-price"></span>
+                    <span class="cards__old-price">2358 &#8399;</span>
+                    <span class="cards__new-price">1899 &#8399;</span>
+                  </div>
+                  <div class="cards__buttons">
+                    <div class="cadrs__fav-com">
+                      <div class="cards__add-favorites">
+                        <svg
+                          class="cards__favorite-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 180.4 169.4"
+                          style="enable-background: new 0 0 180.4 169.4"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path
+                              d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                     L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                     c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                      M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                     L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                     C88.7,130.2,89.4,130,90.2,130z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="cards__add-compare">
+                        <svg
+                          class="cards__compare-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 22 22.1"
+                          style="enable-background: new 0 0 22 22.1"
+                          xml:space="preserve"
+                        >
+                          <path class="st0" d="M5,8.1h7v2H5V8.1z" />
+                          <path class="st0" d="M5,14.1h17v2H5V14.1z" />
+                          <path class="st0" d="M5,20.2h17v1.9H5V20.2z" />
+                          <path class="st0" d="M0,8.1h3v2H0V8.1z" />
+                          <path class="st0" d="M0,14.1h3v2H0V14.1z" />
+                          <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M12,4.1h10v2H12V4.1z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cards__add-to-card">
+                      <img
+                        class="cards__basket-img"
+                        src="images/basket-card.svg"
+                        alt=""
+                      />
+                      <button class="cards__basket-btn">В КОРЗИНУ</button>
+                      <!-- степпер карточки товара -->
+                      <div class="cards__quantity-card">
+                        <div class="cards__stepper">
+                          <div class="cards__stepper-controls">
+                            <button type="button" spinner-button="up"></button>
+                            <button
+                              type="button"
+                              spinner-button="down"
+                            ></button>
+                          </div>
+                          <input
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            value="0"
+                            class="cards__stepper-input"
+                          />
+                          <div class="cards__word-stepper">ШТ.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price">
+                    <span class="cards__strikethrough-price"></span>
+                    <span class="cards__old-price">2358 &#8399;</span>
+                    <span class="cards__new-price">1899 &#8399;</span>
+                  </div>
+                  <div class="cards__buttons">
+                    <div class="cadrs__fav-com">
+                      <div class="cards__add-favorites">
+                        <svg
+                          class="cards__favorite-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 180.4 169.4"
+                          style="enable-background: new 0 0 180.4 169.4"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path
+                              d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                     L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                     c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                      M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                     L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                     C88.7,130.2,89.4,130,90.2,130z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="cards__add-compare">
+                        <svg
+                          class="cards__compare-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 22 22.1"
+                          style="enable-background: new 0 0 22 22.1"
+                          xml:space="preserve"
+                        >
+                          <path class="st0" d="M5,8.1h7v2H5V8.1z" />
+                          <path class="st0" d="M5,14.1h17v2H5V14.1z" />
+                          <path class="st0" d="M5,20.2h17v1.9H5V20.2z" />
+                          <path class="st0" d="M0,8.1h3v2H0V8.1z" />
+                          <path class="st0" d="M0,14.1h3v2H0V14.1z" />
+                          <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M12,4.1h10v2H12V4.1z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cards__add-to-card">
+                      <img
+                        class="cards__basket-img"
+                        src="images/basket-card.svg"
+                        alt=""
+                      />
+                      <button class="cards__basket-btn">В КОРЗИНУ</button>
+                      <!-- степпер карточки товара -->
+                      <div class="cards__quantity-card">
+                        <div class="cards__stepper">
+                          <div class="cards__stepper-controls">
+                            <button type="button" spinner-button="up"></button>
+                            <button
+                              type="button"
+                              spinner-button="down"
+                            ></button>
+                          </div>
+                          <input
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            value="0"
+                            class="cards__stepper-input"
+                          />
+                          <div class="cards__word-stepper">ШТ.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price">
+                    <span class="cards__strikethrough-price"></span>
+                    <span class="cards__old-price">2358 &#8399;</span>
+                    <span class="cards__new-price">1899 &#8399;</span>
+                  </div>
+                  <div class="cards__buttons">
+                    <div class="cadrs__fav-com">
+                      <div class="cards__add-favorites">
+                        <svg
+                          class="cards__favorite-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 180.4 169.4"
+                          style="enable-background: new 0 0 180.4 169.4"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path
+                              d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                     L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                     c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                      M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                     L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                     C88.7,130.2,89.4,130,90.2,130z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="cards__add-compare">
+                        <svg
+                          class="cards__compare-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 22 22.1"
+                          style="enable-background: new 0 0 22 22.1"
+                          xml:space="preserve"
+                        >
+                          <path class="st0" d="M5,8.1h7v2H5V8.1z" />
+                          <path class="st0" d="M5,14.1h17v2H5V14.1z" />
+                          <path class="st0" d="M5,20.2h17v1.9H5V20.2z" />
+                          <path class="st0" d="M0,8.1h3v2H0V8.1z" />
+                          <path class="st0" d="M0,14.1h3v2H0V14.1z" />
+                          <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M12,4.1h10v2H12V4.1z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cards__add-to-card">
+                      <img
+                        class="cards__basket-img"
+                        src="images/basket-card.svg"
+                        alt=""
+                      />
+                      <button class="cards__basket-btn">В КОРЗИНУ</button>
+                      <!-- степпер карточки товара -->
+                      <div class="cards__quantity-card">
+                        <div class="cards__stepper">
+                          <div class="cards__stepper-controls">
+                            <button type="button" spinner-button="up"></button>
+                            <button
+                              type="button"
+                              spinner-button="down"
+                            ></button>
+                          </div>
+                          <input
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            value="0"
+                            class="cards__stepper-input"
+                          />
+                          <div class="cards__word-stepper">ШТ.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price">
+                    <span class="cards__strikethrough-price"></span>
+                    <span class="cards__old-price">2358 &#8399;</span>
+                    <span class="cards__new-price">1899 &#8399;</span>
+                  </div>
+                  <div class="cards__buttons">
+                    <div class="cadrs__fav-com">
+                      <div class="cards__add-favorites">
+                        <svg
+                          class="cards__favorite-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 180.4 169.4"
+                          style="enable-background: new 0 0 180.4 169.4"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path
+                              d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                     L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                     c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                      M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                     L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                     C88.7,130.2,89.4,130,90.2,130z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="cards__add-compare">
+                        <svg
+                          class="cards__compare-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 22 22.1"
+                          style="enable-background: new 0 0 22 22.1"
+                          xml:space="preserve"
+                        >
+                          <path class="st0" d="M5,8.1h7v2H5V8.1z" />
+                          <path class="st0" d="M5,14.1h17v2H5V14.1z" />
+                          <path class="st0" d="M5,20.2h17v1.9H5V20.2z" />
+                          <path class="st0" d="M0,8.1h3v2H0V8.1z" />
+                          <path class="st0" d="M0,14.1h3v2H0V14.1z" />
+                          <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M12,4.1h10v2H12V4.1z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cards__add-to-card">
+                      <img
+                        class="cards__basket-img"
+                        src="images/basket-card.svg"
+                        alt=""
+                      />
+                      <button class="cards__basket-btn">В КОРЗИНУ</button>
+                      <!-- степпер карточки товара -->
+                      <div class="cards__quantity-card">
+                        <div class="cards__stepper">
+                          <div class="cards__stepper-controls">
+                            <button type="button" spinner-button="up"></button>
+                            <button
+                              type="button"
+                              spinner-button="down"
+                            ></button>
+                          </div>
+                          <input
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            value="0"
+                            class="cards__stepper-input"
+                          />
+                          <div class="cards__word-stepper">ШТ.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item">
+                  <img
+                    class="cards__img"
+                    src="images/card-image.png"
+                    alt="Фото товара"
+                  />
+                  <a class="cards__link" href="#">
+                    Оплетка на руль MIS-LT35A (M) BLACK кожа MISTAR
+                  </a>
+                  <p class="cards__article">
+                    Артикул:
+                    <span class="cards__article-number">MIS-LT35A</span>
+                  </p>
+                  <div class="cards__star">
+                    <img
+                      class="cards__star-img"
+                      class="cards__star-img"
+                      alt="1"
+                      src="images/star-on.png"
+                      title="bad"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="2"
+                      src="images/star-on.png"
+                      title="poor"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="3"
+                      src="images/star-half.png"
+                      title="regular"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="4"
+                      src="images/star-off.png"
+                      title="good"
+                    />&nbsp;<img
+                      class="cards__star-img"
+                      alt="5"
+                      src="images/star-off.png"
+                      title="gorgeous"
+                    /><input name="score" type="hidden" value="2.5" />
+                  </div>
+                  <div class="cards__price">
+                    <span class="cards__strikethrough-price"></span>
+                    <span class="cards__old-price">2358 &#8399;</span>
+                    <span class="cards__new-price">1899 &#8399;</span>
+                  </div>
+                  <div class="cards__buttons">
+                    <div class="cadrs__fav-com">
+                      <div class="cards__add-favorites">
+                        <svg
+                          class="cards__favorite-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 180.4 169.4"
+                          style="enable-background: new 0 0 180.4 169.4"
+                          xml:space="preserve"
+                        >
+                          <g>
+                            <path
+                              d="M143.2,169.4c-0.8,0-1.5-0.2-2.2-0.6l-50.7-29.1l-50.7,29.1c-1.5,0.9-3.4,0.8-4.9-0.3c-1.4-1-2.1-2.8-1.8-4.6l12-57.2
+                     L1.5,67.4c-1.3-1.2-1.8-3-1.3-4.7s2-2.9,3.8-3.1l58.1-6.3L86.1,0c0.7-1.6,2.3-2.7,4.1-2.7c1.8,0,3.4,1,4.1,2.7l23.9,53.4l58.1,6.3
+                     c1.8,0.2,3.3,1.4,3.8,3.1c0.5,1.7,0.1,3.5-1.3,4.7l-43.4,39.3l12,57.2c0.4,1.7-0.3,3.5-1.8,4.6C145,169.1,144.1,169.4,143.2,169.4z
+                      M90.2,130c0.8,0,1.5,0.2,2.2,0.6l44.3,25.4L126.2,106c-0.3-1.6,0.2-3.2,1.4-4.3l37.8-34.3L114.7,62c-1.6-0.2-3-1.2-3.6-2.6
+                     L90.2,12.8L69.3,59.4c-0.7,1.5-2,2.5-3.6,2.6L15,67.5l37.8,34.3c1.2,1.1,1.7,2.7,1.4,4.3L43.7,156L88,130.6
+                     C88.7,130.2,89.4,130,90.2,130z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="cards__add-compare">
+                        <svg
+                          class="cards__compare-img"
+                          version="1.1"
+                          id="Слой_1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          x="0px"
+                          y="0px"
+                          viewBox="0 0 22 22.1"
+                          style="enable-background: new 0 0 22 22.1"
+                          xml:space="preserve"
+                        >
+                          <path class="st0" d="M5,8.1h7v2H5V8.1z" />
+                          <path class="st0" d="M5,14.1h17v2H5V14.1z" />
+                          <path class="st0" d="M5,20.2h17v1.9H5V20.2z" />
+                          <path class="st0" d="M0,8.1h3v2H0V8.1z" />
+                          <path class="st0" d="M0,14.1h3v2H0V14.1z" />
+                          <path class="st0" d="M0,20.2h3v1.9H0V20.2z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M12,4.1h10v2H12V4.1z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                          <path class="st0" d="M18,0v10.1h-2V0H18z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="cards__add-to-card">
+                      <img
+                        class="cards__basket-img"
+                        src="images/basket-card.svg"
+                        alt=""
+                      />
+                      <button class="cards__basket-btn">В КОРЗИНУ</button>
+                      <!-- степпер карточки товара -->
+                      <div class="cards__quantity-card">
+                        <div class="cards__stepper">
+                          <div class="cards__stepper-controls">
+                            <button type="button" spinner-button="up"></button>
+                            <button
+                              type="button"
+                              spinner-button="down"
+                            ></button>
+                          </div>
+                          <input
+                            type="number"
+                            min="0"
+                            max="999"
+                            step="1"
+                            value="0"
+                            class="cards__stepper-input"
+                          />
+                          <div class="cards__word-stepper">ШТ.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cards__discount-card">-15%</div>
+                  <div class="cards__new-card">новинка</div>
+                  <div class="cards__hit-card">хит</div>
+                </li>
+                <li class="cards__item cards__item_download_more">
+                  <div class="cards__download-more">
+                    <a class="cards__download-more-link" href="#"
+                      >Загрузить еще</a
+                    >
+                    <img
+                      class="cards__download-more-img"
+                      src="images/arrow-rigth.svg"
+                      alt="Загрузить еще"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="new-products">
+              <div class="new-products__text">
+                <a class="new-products__link" href="#"
+                      >Показать все новинки</a
+                    >
+                    <img
+                      class="new-products__img"
+                      src="images/arrow-rigth.svg"
+                      alt="Загрузить еще"
+                    />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="brands"></section>
+      <section class="selections"></section>
+      <section class="news"></section>
+      <section class="main-text"></section>
+      <section class="subscription"></section>
+    </main>
+    <footer class="footer"></footer>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
